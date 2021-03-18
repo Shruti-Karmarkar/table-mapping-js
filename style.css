@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+.table-layout {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 4px solid #1878ac;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-layout tr {
+  border-bottom: 1px solid #6f6f6f;
+  background-color: #f2f2f2;
+}
+.table-layout td {
+  padding: 12px;
+  width: 50%;
+}
+.table-layout th {
+  padding: 10px 10px 5px 10px;
+  background-color: #ddd;
+  vertical-align: bottom;
+  font-size: 13px;
+}
+.table-layout th.acc-header {
+  background-color: #f2f2f2;
+}
+.account {
+  color: #1878ac;
+  font-size: 18px;
+  font-weight: bold;
+}
+.account:last-child {
+  text-align: center;
+}
+.right-align {
+  text-align: right;
+}
+.left-align {
+  text-align: left;
+}
+.blue-text {
+  color: #1878ac;
+}
+.grey-text {
+  color: #6f6f6f;
+}
+.green-text {
+  color: #00ff00;
+}
+.red-text {
+  color: #ff0000;
+}
+.font-20 {
+  font-size: 20px;
+}
